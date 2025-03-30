@@ -1,0 +1,84 @@
+# Diretórios do Visual Studio
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Configurações do Visual Studio Code
+.vscode/
+
+# Diretórios de saída de build
+bin/
+obj/
+out/
+*.user
+*.rsuser
+*.ide
+
+# Diretórios do Rider
+.idea/
+*.sln.iml
+
+# Logs e arquivos temporários
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/logs/
+
+# Configuração do NuGet
+.nuget/
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Configurações de usuário do Dotnet
+*.dotnet
+dotnet-tools.json
+
+# Configuração de dependências locais
+node_modules/
+dist/
+
+# Banco de dados local e migrações
+*.mdf
+*.ldf
+Migrations/
+
+# Certificados SSL
+*.pfx
+*.p12
+
+# Configurações do Docker
+docker-compose.override.yml
+.dockerignore
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# Publicações
+publish/
+wwwroot/
+
+# Arquivos de cache
+*.cache
+*.config
+*.csproj.user
+
+# Arquivos do Resharper
+*.DotSettings.user
+_ReSharper*/
+
+# Diretórios de Testes e Cobertura
+TestResults/
+Coverage/
+*.coverage
+*.coveragexml
+*.trx
+
