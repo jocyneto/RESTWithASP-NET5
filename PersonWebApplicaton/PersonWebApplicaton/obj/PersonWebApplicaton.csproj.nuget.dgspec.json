@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jocy Goncalves Neto\\Documents\\Ingles\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj": {}
+    "C:\\Users\\jocy.neto\\Documents\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jocy Goncalves Neto\\Documents\\Ingles\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj": {
+    "C:\\Users\\jocy.neto\\Documents\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jocy Goncalves Neto\\Documents\\Ingles\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj",
+        "projectUniqueName": "C:\\Users\\jocy.neto\\Documents\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj",
         "projectName": "PersonWebApplicaton",
-        "projectPath": "C:\\Users\\Jocy Goncalves Neto\\Documents\\Ingles\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj",
-        "packagesPath": "C:\\Users\\Jocy Goncalves Neto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jocy Goncalves Neto\\Documents\\Ingles\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\obj\\",
+        "projectPath": "C:\\Users\\jocy.neto\\Documents\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\PersonWebApplicaton.csproj",
+        "packagesPath": "C:\\Users\\jocy.neto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jocy.neto\\Documents\\%temp%\\RESTWithASP-NET5\\PersonWebApplicaton\\PersonWebApplicaton\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jocy Goncalves Neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jocy.neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,6 +86,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
